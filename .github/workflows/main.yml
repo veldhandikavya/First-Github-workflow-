@@ -1,0 +1,14 @@
+name: Kavya Workflow
+
+on: 
+  push:
+    branches: [ main ]
+
+job:
+  demo:
+    run-on: ubuntu-latest
+
+step:
+ - name: Greetings
+   run: echo "Hello this project file"
+   
